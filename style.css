@@ -36,16 +36,15 @@ body {
 
 .trunk {
     position: absolute;
-    bottom: 10px;
+    bottom: 10px; /* Jarak dari bawah kartu */
     left: 50%;
     width: 14px;
-    height: 60px;
+    height: 60px; /* <--- UBAH ANGKA INI */
     background: #5d4037;
     transform: translateX(-50%);
     border-radius: 5px;
     z-index: 2;
 }
-
 /* Bunga pada pohon */
 .flower {
     position: absolute;
